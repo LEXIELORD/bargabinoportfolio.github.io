@@ -20,6 +20,9 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #1e1e1e;
 }
 
@@ -1014,8 +1017,8 @@ footer .credits a {
   transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close2:hover, .close3:hover,
+.close:focus, .close2:focus, .close3:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -1026,4 +1029,13 @@ footer .credits a {
   .modal-content {
     width: 100%;
   }
+}
+
+.a {
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  background-color: #222222; 
+  padding: 8px 30px 8px 30px; 
+  border-radius: 5px;
 }
