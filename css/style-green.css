@@ -12,6 +12,9 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1,
@@ -20,9 +23,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   color: #1e1e1e;
 }
 
@@ -1038,4 +1038,31 @@ footer .credits a {
   background-color: #222222; 
   padding: 8px 30px 8px 30px; 
   border-radius: 5px;
+}
+
+.skills{
+  height: 100vh;
+}
+
+.skills-a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.skills-a p{
+  text-align: center;
+}
+.skills-img {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.html{
+
 }
