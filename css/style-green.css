@@ -1041,7 +1041,7 @@ footer .credits a {
 }
 
 .skills{
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .skills-a{
@@ -1062,7 +1062,4 @@ footer .credits a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-}
-.html{
-
 }
